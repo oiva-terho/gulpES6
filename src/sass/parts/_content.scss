@@ -1,0 +1,32 @@
+.content {
+    padding: 20px;
+    h1 {
+        margin: 10px auto;
+        text-align: center;
+        font-size: 48px;
+    }
+    img {
+        display: block;
+        margin: 40px auto;
+    }
+}
+.news {
+    text-align: center;
+    &__list {
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+    }
+    &__card {
+        padding: 10px;
+        border: 1px solid $main-color;
+        border-radius: 8px;
+        background-color: #fff;
+        date {
+            display: block;
+            font-weight: 200;
+            font-size: 14px;
+            text-align: right;
+        }
+    }
+}

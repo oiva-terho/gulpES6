@@ -1,0 +1,11 @@
+extends layout/app 
+
+block page 
+    include parts/header
+    section.content 
+        h1 First title
+        img(src="img/snipaz.png", alt="Forest through spyglass", width="500")
+        p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint blanditiis vero odit quos ut, nostrum aperiam aliquam quia, ex tempore commodi voluptates atque provident reiciendis ipsa quam quas fugit error.
+    section.news 
+        include parts/news-item 
+    include parts/footer 
